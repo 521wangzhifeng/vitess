@@ -81,11 +81,7 @@ else
 
 # Install
   make -s install #DESTDIR=$VTROOT/dist/mysql
-  rm -rf $VTROOT/dist/mysql/mysql-test && \
-    rm -rf $VTROOT/dist/mysql/sql-bench
-  popd
-  rm -rf third_party/mysql
-  fi
+fi
 
 
 
